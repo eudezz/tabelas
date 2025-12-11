@@ -5,13 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+
+        }
+        body{
+            margin: auto;
+            max-width: 100vh;
+            
+
+        }
+
+        h1{
+            padding-bottom: 30px;
+        }
         table{
+  
+            margin: auto;
             border-collapse: collapse;
 
         }
         td{
             border: 1px solid black;
             width: 100px;
+            height: 100px;
+            text-align: center;
+
+        }
+        .text{
+            width: 200px;
+            height: 100px;
+
         }
 
 
@@ -21,14 +45,56 @@
     <h1>Meclagens de tabelas</h1>
     <table>
         <thead>
-            <th>
-          
-            </th>
+            <tr>
+                <th>
+                </th>
+            </tr>
         </thead>
         <tbody>
             <tr>
                 <td>
+                    A
                 </td>
+                <td colspan="2">
+                     <input class="text" type="month" value="">
+                </td>
+                    
+                
+            </tr>
+            <tr>
+                <td>D
+                </td>
+
+                <td>
+                    E
+                </td>
+
+                <td rowspan="3">
+                    F
+                </td>
+
+            </tr>
+            <tr>
+                <!-- <td>
+                   G
+                </td> -->
+                <td rowspan="">
+                    H
+                </td>
+                <td>
+                    I
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   J
+                </td>
+                <td>
+                    K
+                </td>
+                 <!-- <td>
+                    L
+                </td>  -->
             </tr>
         </tbody>
     </table>
