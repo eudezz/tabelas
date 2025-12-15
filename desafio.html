@@ -6,56 +6,237 @@
     <title>Document</title>
     <style>
         body{
+        
             margin: auto;
             margin: 0px;
             padding: 0px;
         }
-        table{
-            
+       #ABC{
+           
             margin: auto;
-            height: 200px;
-            width: 200px;
+            background-image: linear-gradient(to bottom, Green, pink);
+            width: 400px;
             text-align: center;
 
 
         }
-        td{
+       th, td{
             
-            border: 1px solid green;
+            border: 1px solid black;
             padding:20px;
         }
 
+ #G {
+    
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, blue, gray);
 
+ }
+#CBA{
+    
+    margin: auto;
+    background-image:linear-gradient(to bottom, pink, orange) ;
+
+}
 
     </style>
 </head>
 <body>
-    <table>
+    <h1>Trabelas</h1>
+
+
+    <table id="ABC">
         <thead>
         </thead>
         <tbody>
             <tr>
-                <td>
-                    00
+                <td >
+                    02
                 </td>
                 <td>
-                   00
+                   02
                 </td>
-                <td rowspan="4">
-                   00
+                <td rowspan="2">
+                   03
                 </td>
                 
                  <td>
-                    01
-                </td> 
-               
-             
-                 <td>00
-                </td> 
+                    04
+                </td>  
+                 
             </tr>
+                <tr>
+                <td>
+                    05
+                </td>
+                <td>
+                   06
+                </td>
+           
+                
+                 <td>
+                    07
+                </td>  
+                 
+            </tr>
+
+
+        <!-- OIto -->
+
+
+         <tr >   
+                <td colspan="3">
+                    08
+                </td>
+                <td>09</td>
+                 
+            </tr>
+        
+
+        <!--  -->
+         <tr>
+                <td rowspan="2">
+                    10
+                </td>
+                <td colspan="2">
+                   11
+                </td>
+                <td>
+                   12
+                </td>
+                
+                
+                 
+            </tr>
+
+  <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                 
+            </tr>
+
+
+    </tbody>
+    </table>
+
+    <br>
+    <table id="CBA" >
+        <thead></thead>
+        <tbody>
+            <tr >
+                <td colspan="4">
+                    A
+                </td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" >C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
                
+            </tr>
+            <tr>
+                <td>
+                    G
+                </td>
+                <td>
+                    H
+                </td>
+                <td>
+                    I
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td colspan="4">N</td>
+            </tr>
+
+
+
+
+
         </tbody>
+
+       <br>
     </table>
     
+    <br>
+    <table id="G" >
+        <thead>
+               
+                    <tr>
+                        <th>
+                            Grupo
+                        </th>
+                        <th>
+                            Nomes
+                        </th>
+                        <th colspan="3">
+                            Filmes
+                        </th>
+                        </tr>
+                
+        </thead>
+        <tbody>
+                <tr>
+                    <th rowspan="3">
+                        Mulheres
+
+                    </th>
+                    <td>
+                        Ana maria santos
+                    </td>
+                        <td>
+                            Alien
+                        </td>
+
+                        <td>
+                            Rambo
+                        </td>
+                        <td>
+                            Vingadores
+                        </td>
+                </tr>
+                <tr>
+                    <td>Claudia Abre Judaí</td>
+                    <td>Bacural</td>
+                    <td>Cidade dos Sonhos</td>
+                    <td>O show de Truman</td>
+
+                </tr>
+                <tr>
+                    <td>Rita Von de Kan</td>
+                    <td>Um dia de Cão</td>
+                    <td>A anatomia de um Crime </td>
+                    <td>Dona Flor e seus dois maridos</td>
+
+                </tr>
+
+                <!--  -->
+                <tr>
+                    <th rowspan="3">
+                        Homens
+                    </th>
+                    <td>Ricardo Mnegrine</td>
+                    <td>O iluminado</td>
+                    <td> Midsomar</td>
+                    <td>Whicher</td>
+                
+                </tr>
+
+                <tr>
+                    <td>Nilson Avilar Neto</td>
+                    <td>Ainda estou aqui</td>
+                    <td>Tudo em todo logar au mesmo tempo</td>
+                    <td>O guarda costas</td>
+
+                </tr>
+        </tbody>
+
+    </table>
 </body>
 </html>
